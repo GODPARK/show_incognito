@@ -1,0 +1,16 @@
+{
+    "name": "show_incognito",
+    "description": "",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "Click redirect to show_incognito"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {}
+}
